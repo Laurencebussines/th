@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular de Contact</title>
+</head>
+<body>
+
+<h2>Contactează-ne</h2>
+
+<form action="proceseaza_formular.php" method="post">
+    <label for="nume">Nume:</label>
+    <input type="text" id="nume" name="nume" required><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="mesaj">Mesaj:</label>
+    <textarea id="mesaj" name="mesaj" required></textarea><br>
+
+    <input type="submit" value="Trimite">
+</form>
+
+</body>
+</html>
